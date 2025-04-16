@@ -1,6 +1,83 @@
-# Faust Scaffold
+# Ncmaz-Faust - WordPress Headless with NextJS
 
-This repository contains a starter scaffolding to get you up and running quickly on [WP Engine's Atlas platform](https://wpengine.com/atlas/) with a WordPress site skeleton for more advanced developers.
+This repository contains a NextJS frontend for a headless WordPress site using Faust.js. It features a modern UI, full TypeScript support, and GraphQL integration.
+
+## Features
+
+- 🚀 NextJS 14+ for server-side rendering and static site generation
+- 🔄 Faust.js for seamless WordPress integration
+- 📊 GraphQL for efficient data fetching
+- 💅 Tailwind CSS for styling
+- 🌐 Internationalization support
+- 🔍 SEO optimization
+- 🎨 Modern UI components
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed
+- A WordPress site with the FaustWP plugin installed
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/amikachitranshi/amika.git
+cd amika
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Create a `.env.local` file based on the example:
+```bash
+cp .env.local.example .env.local
+```
+
+4. Edit the `.env.local` file with your WordPress URL and Faust secret key.
+
+5. Generate GraphQL types and possible types:
+```bash
+npm run generate
+npm run codegen
+```
+
+6. Start the development server:
+```bash
+npm run dev
+```
+
+7. The site will be available at http://localhost:3000
+
+## Deployment
+
+See the [DEPLOYMENT.md](DEPLOYMENT.md) file for detailed deployment instructions.
+
+## Project Structure
+
+- `src/` - Source code
+  - `components/` - Reusable UI components
+  - `pages/` - Next.js pages
+  - `fragments/` - GraphQL fragments
+  - `wp-templates/` - WordPress template components
+
+## Environment Variables
+
+Copy `.env.local.example` to `.env.local` and update the values:
+
+- `NEXT_PUBLIC_WORDPRESS_URL`: Your WordPress site URL
+- `FAUST_SECRET_KEY`: Secret key from WordPress (found in Settings -> Headless Faust)
+- `NEXT_PUBLIC_URL`: Your frontend URL
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run codegen` - Generate GraphQL code
 
 ## For more information
 
