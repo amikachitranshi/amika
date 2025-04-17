@@ -18,7 +18,7 @@
 		"features_list": ["Create a free account.", "Write your stories."]
 	},
 	"top_banner": {
-		"enable": true,
+		"enable": false,
 		"description": "-50% Intro price for the next 72 hours only!.",
 		"end_link": {
 			"url": "https://themeforest.net/item/ncmaz-nextjs-headless-wordpress-blog-magazine/47815656",
@@ -32,7 +32,7 @@
 		"sub_title": "Let's explore the most popular categories"
 	},
 	"site_info": {
-		"site_title": "Ncmaz Nextjs Blog",
+		"site_title": "Amika Chitranshi",
 		"site_description": "Ncmaz Nextjs Blog headless WordPress",
 		"site_keywords": "Ncmaz Nextjs Blog",
 		"site_author": "ChisNghiax",
@@ -44,9 +44,9 @@
 		"site_zip": "Your Zip",
 		"site_country": "Your Country",
 		"site_url": "https://www.yoursite.com",
-		"site_logo": "/logo.png",
-		"site_logo_light": "/logo-light.png",
-		"site_favicon": "/favicon.png"
+		"site_logo": "https://headless.amikachitranshi.com/wp-content/uploads/2023/09/as_masthead-138x45-050.png",
+		"site_logo_light": "https://headless.amikachitranshi.com/wp-content/uploads/2023/09/as_masthead-138x45-050.png",
+		"site_favicon": "https://headless.amikachitranshi.com/wp-content/uploads/2022/10/as_icon-07-144-1.jpg"
 	},
 	"site_socials": [
 		{
@@ -82,7 +82,7 @@
 		}
 	},
 	"site_footer": {
-		"all_rights_reserved_text": "© 2024 BooliiTheme Company, Inc. All rights reserved."
+		"all_rights_reserved_text": "© 2025 Amika Chitranshi. All rights reserved."
 	},
 	"single_page": {
 		"show_view_cout": true,
@@ -90,11 +90,11 @@
 	},
 	"search_page": {
 		"recommended_searches": {
-			"enable": true,
+			"enable": false,
 			"title": "Recommended searches",
 			"items": [
 				{
-					"title": "Programming",
+					"title": "Agri Approaches",
 					"url": "/search/posts/programming"
 				},
 				{
